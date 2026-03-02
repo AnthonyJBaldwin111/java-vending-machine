@@ -1,18 +1,7 @@
-Java Vending Machine is an object oriented console based application that simulates the functionality of a real vending machine. The system allows users to select products, insert money, process transactions, calculate change, and update inventory dynamically. The program is structured using multiple classes to demonstrate core object oriented programming principles including encapsulation, abstraction, and modular design.
+Java Vending Machine is a console based object oriented application that simulates a basic vending machine. The program allows a user to insert a five or ten dollar bill, select a product, process the transaction, and receive change.
 
-The application models real world vending machine behavior by validating user input, checking product availability, verifying sufficient payment, and handling transaction logic. Inventory levels are automatically updated after each purchase, and the system prevents purchases when funds are insufficient or items are out of stock.
+The system is structured using multiple classes to demonstrate core OOP principles such as encapsulation and modular design. The Product class stores item name and price, while the VendingMachine class manages product selection and purchase logic. The Main class handles user interaction.
 
-This project demonstrates:
+When the program runs, the user inserts either five or ten dollars. The machine displays available items with prices. After the user selects an item, the system verifies that the balance is sufficient, deducts the cost, and returns the remaining balance as change. If an invalid bill or selection is entered, the program prevents the transaction.
 
-• Object Oriented Programming in Java
-• Class and method design
-• Conditional logic and control structures
-• Input validation and error handling
-• Basic transaction processing logic
-• Inventory management simulation
-
-Technologies Used
-
-• Java
-• Scanner class for user input
-• Object oriented design principles
+This project demonstrates object oriented programming in Java, class and method design, conditional logic, input validation, and basic transaction processing using the Scanner class for user input.
